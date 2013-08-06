@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day13</string>
+    <string name="hello">hello</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="tour">旅游</string>
+    <string name="FIRST">first</string>
+    <string name="second">second</string>
+    <string name="start">start</string>
+</resources>

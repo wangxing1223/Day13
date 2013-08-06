@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/linearLayout"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            />
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            />
+    <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+        <RadioButton
+                android:id="@+id/red"
+                android:text="@string/red"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:checked="true"
+                />
+        <RadioButton
+                android:id="@+id/green"
+                android:text="@string/green"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+        <RadioButton
+                android:id="@+id/blue"
+                android:text="@string/blue"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+    </RadioGroup>
+    <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tour"
+            android:text="@string/tour"
+            />
+    <ToggleButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/toggleButton"
+            android:width="150px"
+            android:checked="true"
+            android:textOn="ON"
+            android:textOff="OFF"
+            >
+
+    </ToggleButton>
+    <Spinner
+            android:id="@+id/spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acitivity1"
+            android:id="@+id/activity1" android:layout_gravity="center"/>
+</LinearLayout>
+
